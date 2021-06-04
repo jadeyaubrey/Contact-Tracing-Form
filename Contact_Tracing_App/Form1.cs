@@ -17,5 +17,22 @@ namespace Contact_Tracing_App
             InitializeComponent();
         }
 
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtLN.Clear();
+            txtFN.Clear();
+            txtMI.Clear();
+            txtAge.Clear();
+            txtSex.Clear();
+            txtPhone.Clear();
+            txtEmail.Clear();
+            txtHouse.Clear();
+            txtBrgy.Clear();
+            txtCity.Clear();
+            txtProvince.Clear();
+            txtZip.Clear();
+
+
+        }
     }
 }
