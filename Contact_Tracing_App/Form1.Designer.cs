@@ -30,27 +30,32 @@ namespace Contact_Tracing_App
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.datePicker = new System.Windows.Forms.DateTimePicker();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtZip = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtProvince = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtBrgy = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtHouse = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtTemp = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtSex = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtMI = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,22 +63,19 @@ namespace Contact_Tracing_App
             this.txtLN = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox13);
+            this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.textBox11);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox12);
-            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.txtZip);
+            this.groupBox1.Controls.Add(this.txtCity);
+            this.groupBox1.Controls.Add(this.txtPhone);
+            this.groupBox1.Controls.Add(this.txtProvince);
             this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label17);
@@ -82,18 +84,18 @@ namespace Contact_Tracing_App
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.datePicker);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.txtBrgy);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.txtHouse);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtTemp);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtSex);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtAge);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtMI);
             this.groupBox1.Controls.Add(this.label2);
@@ -107,39 +109,60 @@ namespace Contact_Tracing_App
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customer Information";
             // 
-            // label15
+            // txtEmail
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label15.Location = new System.Drawing.Point(427, 92);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(34, 17);
-            this.label15.TabIndex = 26;
-            this.label15.Text = "Date";
+            this.txtEmail.Location = new System.Drawing.Point(348, 230);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(277, 27);
+            this.txtEmail.TabIndex = 31;
             // 
-            // datePicker
+            // label19
             // 
-            this.datePicker.Location = new System.Drawing.Point(427, 112);
-            this.datePicker.Name = "datePicker";
-            this.datePicker.Size = new System.Drawing.Size(201, 27);
-            this.datePicker.TabIndex = 25;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(348, 210);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(85, 17);
+            this.label19.TabIndex = 30;
+            this.label19.Text = "Email Address";
             // 
-            // label14
+            // txtZip
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(485, 366);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(57, 17);
-            this.label14.TabIndex = 24;
-            this.label14.Text = "Zip Code";
+            this.txtZip.Location = new System.Drawing.Point(485, 386);
+            this.txtZip.Name = "txtZip";
+            this.txtZip.Size = new System.Drawing.Size(140, 27);
+            this.txtZip.TabIndex = 23;
             // 
-            // textBox11
+            // txtCity
             // 
-            this.textBox11.Location = new System.Drawing.Point(485, 386);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(140, 27);
-            this.textBox11.TabIndex = 23;
+            this.txtCity.Location = new System.Drawing.Point(13, 386);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(215, 27);
+            this.txtCity.TabIndex = 19;
+            // 
+            // txtPhone
+            // 
+            this.txtPhone.Location = new System.Drawing.Point(16, 230);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(279, 27);
+            this.txtPhone.TabIndex = 29;
+            // 
+            // txtProvince
+            // 
+            this.txtProvince.Location = new System.Drawing.Point(250, 386);
+            this.txtProvince.Name = "txtProvince";
+            this.txtProvince.Size = new System.Drawing.Size(213, 27);
+            this.txtProvince.TabIndex = 21;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(16, 210);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(92, 17);
+            this.label18.TabIndex = 28;
+            this.label18.Text = "Phone Number";
             // 
             // label13
             // 
@@ -151,12 +174,16 @@ namespace Contact_Tracing_App
             this.label13.TabIndex = 22;
             this.label13.Text = "Province";
             // 
-            // textBox10
+            // label17
             // 
-            this.textBox10.Location = new System.Drawing.Point(250, 386);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(213, 27);
-            this.textBox10.TabIndex = 21;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(16, 182);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(609, 15);
+            this.label17.TabIndex = 27;
+            this.label17.Text = "Contact Details  ----------------------------------------------------------------" +
+    "---------------------------------------";
             // 
             // label12
             // 
@@ -168,12 +195,32 @@ namespace Contact_Tracing_App
             this.label12.TabIndex = 20;
             this.label12.Text = "City";
             // 
-            // textBox9
+            // label15
             // 
-            this.textBox9.Location = new System.Drawing.Point(13, 386);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(215, 27);
-            this.textBox9.TabIndex = 19;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(427, 92);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(34, 17);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "Date";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(485, 366);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(57, 17);
+            this.label14.TabIndex = 24;
+            this.label14.Text = "Zip Code";
+            // 
+            // datePicker
+            // 
+            this.datePicker.Location = new System.Drawing.Point(427, 112);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.Size = new System.Drawing.Size(201, 27);
+            this.datePicker.TabIndex = 25;
             // 
             // label11
             // 
@@ -185,12 +232,12 @@ namespace Contact_Tracing_App
             this.label11.TabIndex = 18;
             this.label11.Text = "Barangay/Village";
             // 
-            // textBox8
+            // txtBrgy
             // 
-            this.textBox8.Location = new System.Drawing.Point(394, 329);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(229, 27);
-            this.textBox8.TabIndex = 17;
+            this.txtBrgy.Location = new System.Drawing.Point(394, 329);
+            this.txtBrgy.Name = "txtBrgy";
+            this.txtBrgy.Size = new System.Drawing.Size(229, 27);
+            this.txtBrgy.TabIndex = 17;
             // 
             // label10
             // 
@@ -202,12 +249,12 @@ namespace Contact_Tracing_App
             this.label10.TabIndex = 16;
             this.label10.Text = "House Number/Unit";
             // 
-            // textBox7
+            // txtHouse
             // 
-            this.textBox7.Location = new System.Drawing.Point(13, 329);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(366, 27);
-            this.textBox7.TabIndex = 15;
+            this.txtHouse.Location = new System.Drawing.Point(13, 329);
+            this.txtHouse.Name = "txtHouse";
+            this.txtHouse.Size = new System.Drawing.Size(366, 27);
+            this.txtHouse.TabIndex = 15;
             // 
             // label9
             // 
@@ -242,12 +289,12 @@ namespace Contact_Tracing_App
             this.label7.TabIndex = 12;
             this.label7.Text = "*Please input sex assigned at birth. ";
             // 
-            // textBox6
+            // txtTemp
             // 
-            this.textBox6.Location = new System.Drawing.Point(282, 112);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(127, 27);
-            this.textBox6.TabIndex = 11;
+            this.txtTemp.Location = new System.Drawing.Point(282, 112);
+            this.txtTemp.Name = "txtTemp";
+            this.txtTemp.Size = new System.Drawing.Size(127, 27);
+            this.txtTemp.TabIndex = 11;
             // 
             // label6
             // 
@@ -259,12 +306,12 @@ namespace Contact_Tracing_App
             this.label6.TabIndex = 10;
             this.label6.Text = "Temperature";
             // 
-            // textBox5
+            // txtSex
             // 
-            this.textBox5.Location = new System.Drawing.Point(130, 112);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(138, 27);
-            this.textBox5.TabIndex = 9;
+            this.txtSex.Location = new System.Drawing.Point(130, 112);
+            this.txtSex.Name = "txtSex";
+            this.txtSex.Size = new System.Drawing.Size(138, 27);
+            this.txtSex.TabIndex = 9;
             // 
             // label5
             // 
@@ -286,12 +333,12 @@ namespace Contact_Tracing_App
             this.label4.TabIndex = 7;
             this.label4.Text = "Age";
             // 
-            // textBox4
+            // txtAge
             // 
-            this.textBox4.Location = new System.Drawing.Point(16, 112);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(96, 27);
-            this.textBox4.TabIndex = 6;
+            this.txtAge.Location = new System.Drawing.Point(16, 112);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(96, 27);
+            this.txtAge.TabIndex = 6;
             // 
             // label3
             // 
@@ -354,56 +401,31 @@ namespace Contact_Tracing_App
             this.label16.TabIndex = 27;
             this.label16.Text = "Contact Tracing Form";
             // 
-            // label17
+            // btnSubmit
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(16, 182);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(609, 15);
-            this.label17.TabIndex = 27;
-            this.label17.Text = "Contact Details  ----------------------------------------------------------------" +
-    "---------------------------------------";
+            this.btnSubmit.Location = new System.Drawing.Point(279, 619);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(112, 37);
+            this.btnSubmit.TabIndex = 32;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
             // 
-            // textBox12
+            // btnClear
             // 
-            this.textBox12.Location = new System.Drawing.Point(16, 230);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(279, 27);
-            this.textBox12.TabIndex = 29;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(16, 210);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(92, 17);
-            this.label18.TabIndex = 28;
-            this.label18.Text = "Phone Number";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(348, 230);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(277, 27);
-            this.textBox13.TabIndex = 31;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(348, 210);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(85, 17);
-            this.label19.TabIndex = 30;
-            this.label19.Text = "Email Address";
+            this.btnClear.Location = new System.Drawing.Point(280, 662);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(112, 37);
+            this.btnClear.TabIndex = 33;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
             // 
             // frmCTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(671, 714);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmCTA";
@@ -421,36 +443,38 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.DateTimePicker datePicker;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtZip;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtProvince;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtBrgy;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtHouse;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtTemp;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtSex;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMI;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtFN;
         private System.Windows.Forms.TextBox txtLN;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
