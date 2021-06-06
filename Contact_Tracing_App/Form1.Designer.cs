@@ -29,6 +29,7 @@ namespace Contact_Tracing_App
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCTA));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -65,6 +66,7 @@ namespace Contact_Tracing_App
             this.label16 = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,7 +104,7 @@ namespace Contact_Tracing_App
             this.groupBox1.Controls.Add(this.txtFN);
             this.groupBox1.Controls.Add(this.txtLN);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 175);
+            this.groupBox1.Location = new System.Drawing.Point(13, 148);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(646, 438);
             this.groupBox1.TabIndex = 2;
@@ -394,10 +396,10 @@ namespace Contact_Tracing_App
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(165, 25);
+            this.label16.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(143, 17);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(320, 41);
+            this.label16.Size = new System.Drawing.Size(374, 49);
             this.label16.TabIndex = 27;
             this.label16.Text = "Contact Tracing Form";
             // 
@@ -409,6 +411,7 @@ namespace Contact_Tracing_App
             this.btnSubmit.TabIndex = 32;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnClear
             // 
@@ -420,15 +423,28 @@ namespace Contact_Tracing_App
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(50, 66);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(590, 60);
+            this.label20.TabIndex = 34;
+            this.label20.Text = resources.GetString("label20.Text");
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmCTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(671, 714);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCTA";
             this.Text = "Contact Tracing Form";
             this.groupBox1.ResumeLayout(false);
@@ -476,6 +492,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label label20;
     }
 }
 
