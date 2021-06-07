@@ -1,9 +1,24 @@
+Visitor # 1
 Date: Monday, 7 June 2021
-Name: adasd, asdasd 
-Age: sdfsf
-Sex: dfdfs
-Temperature: zcxzc
-Phone: sdfsdf
-Email Address: sdfsdf
-Address: , , , 
+Name: abiog, jan marcus h
+Age: 14
+Sex: Male
+Temperature: 34
+Phone: 12323232323
+Email Address: jmabiog@gmail.com
+Address: 1, 2, taguig city, metro manila
 Zipcode: 
+  
+  
+Visitor # 2
+Date: Monday, 7 June 2021
+Name: abiog, joseph vincent h
+Age: 17
+Sex: Male
+Temperature: 56
+Phone: 34567876543
+Email Address: dswewewew@gmail.com
+Address: bahay, barangay, city, province
+Zipcode: zipcode
+  
+  

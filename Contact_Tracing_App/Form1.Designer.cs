@@ -31,6 +31,7 @@ namespace Contact_Tracing_App
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCTA));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbxSex = new System.Windows.Forms.ComboBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.txtZip = new System.Windows.Forms.TextBox();
@@ -53,7 +54,6 @@ namespace Contact_Tracing_App
             this.label7 = new System.Windows.Forms.Label();
             this.txtTemp = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtSex = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtAge = new System.Windows.Forms.TextBox();
@@ -67,11 +67,13 @@ namespace Contact_Tracing_App
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cmbxSex);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.txtZip);
@@ -94,7 +96,6 @@ namespace Contact_Tracing_App
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtTemp);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.txtSex);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtAge);
@@ -111,12 +112,23 @@ namespace Contact_Tracing_App
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customer Information";
             // 
+            // cmbxSex
+            // 
+            this.cmbxSex.FormattingEnabled = true;
+            this.cmbxSex.Items.AddRange(new object[] {
+            "Female",
+            "Male"});
+            this.cmbxSex.Location = new System.Drawing.Point(125, 111);
+            this.cmbxSex.Name = "cmbxSex";
+            this.cmbxSex.Size = new System.Drawing.Size(151, 28);
+            this.cmbxSex.TabIndex = 5;
+            // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(348, 230);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(277, 27);
-            this.txtEmail.TabIndex = 31;
+            this.txtEmail.TabIndex = 9;
             // 
             // label19
             // 
@@ -133,28 +145,31 @@ namespace Contact_Tracing_App
             this.txtZip.Location = new System.Drawing.Point(485, 386);
             this.txtZip.Name = "txtZip";
             this.txtZip.Size = new System.Drawing.Size(140, 27);
-            this.txtZip.TabIndex = 23;
+            this.txtZip.TabIndex = 14;
             // 
             // txtCity
             // 
             this.txtCity.Location = new System.Drawing.Point(13, 386);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(215, 27);
-            this.txtCity.TabIndex = 19;
+            this.txtCity.TabIndex = 12;
             // 
             // txtPhone
             // 
+            this.txtPhone.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtPhone.Location = new System.Drawing.Point(16, 230);
+            this.txtPhone.MaxLength = 11;
             this.txtPhone.Name = "txtPhone";
+            this.txtPhone.PlaceholderText = "09XXXXXXXXX";
             this.txtPhone.Size = new System.Drawing.Size(279, 27);
-            this.txtPhone.TabIndex = 29;
+            this.txtPhone.TabIndex = 8;
             // 
             // txtProvince
             // 
             this.txtProvince.Location = new System.Drawing.Point(250, 386);
             this.txtProvince.Name = "txtProvince";
             this.txtProvince.Size = new System.Drawing.Size(213, 27);
-            this.txtProvince.TabIndex = 21;
+            this.txtProvince.TabIndex = 13;
             // 
             // label18
             // 
@@ -222,7 +237,7 @@ namespace Contact_Tracing_App
             this.datePicker.Location = new System.Drawing.Point(427, 112);
             this.datePicker.Name = "datePicker";
             this.datePicker.Size = new System.Drawing.Size(201, 27);
-            this.datePicker.TabIndex = 25;
+            this.datePicker.TabIndex = 7;
             // 
             // label11
             // 
@@ -239,7 +254,7 @@ namespace Contact_Tracing_App
             this.txtBrgy.Location = new System.Drawing.Point(394, 329);
             this.txtBrgy.Name = "txtBrgy";
             this.txtBrgy.Size = new System.Drawing.Size(229, 27);
-            this.txtBrgy.TabIndex = 17;
+            this.txtBrgy.TabIndex = 11;
             // 
             // label10
             // 
@@ -256,7 +271,7 @@ namespace Contact_Tracing_App
             this.txtHouse.Location = new System.Drawing.Point(13, 329);
             this.txtHouse.Name = "txtHouse";
             this.txtHouse.Size = new System.Drawing.Size(366, 27);
-            this.txtHouse.TabIndex = 15;
+            this.txtHouse.TabIndex = 10;
             // 
             // label9
             // 
@@ -296,7 +311,7 @@ namespace Contact_Tracing_App
             this.txtTemp.Location = new System.Drawing.Point(282, 112);
             this.txtTemp.Name = "txtTemp";
             this.txtTemp.Size = new System.Drawing.Size(127, 27);
-            this.txtTemp.TabIndex = 11;
+            this.txtTemp.TabIndex = 6;
             // 
             // label6
             // 
@@ -307,13 +322,6 @@ namespace Contact_Tracing_App
             this.label6.Size = new System.Drawing.Size(79, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "Temperature";
-            // 
-            // txtSex
-            // 
-            this.txtSex.Location = new System.Drawing.Point(130, 112);
-            this.txtSex.Name = "txtSex";
-            this.txtSex.Size = new System.Drawing.Size(138, 27);
-            this.txtSex.TabIndex = 9;
             // 
             // label5
             // 
@@ -340,7 +348,7 @@ namespace Contact_Tracing_App
             this.txtAge.Location = new System.Drawing.Point(16, 112);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(96, 27);
-            this.txtAge.TabIndex = 6;
+            this.txtAge.TabIndex = 4;
             // 
             // label3
             // 
@@ -357,7 +365,7 @@ namespace Contact_Tracing_App
             this.txtMI.Location = new System.Drawing.Point(520, 52);
             this.txtMI.Name = "txtMI";
             this.txtMI.Size = new System.Drawing.Size(105, 27);
-            this.txtMI.TabIndex = 4;
+            this.txtMI.TabIndex = 3;
             // 
             // label2
             // 
@@ -378,6 +386,7 @@ namespace Contact_Tracing_App
             // 
             // txtLN
             // 
+            this.txtLN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtLN.Location = new System.Drawing.Point(16, 52);
             this.txtLN.Name = "txtLN";
             this.txtLN.Size = new System.Drawing.Size(191, 27);
@@ -405,20 +414,20 @@ namespace Contact_Tracing_App
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(279, 619);
+            this.btnSubmit.Location = new System.Drawing.Point(162, 618);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(112, 37);
-            this.btnSubmit.TabIndex = 32;
+            this.btnSubmit.TabIndex = 15;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(280, 662);
+            this.btnClear.Location = new System.Drawing.Point(280, 618);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 37);
-            this.btnClear.TabIndex = 33;
+            this.btnClear.TabIndex = 16;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -434,11 +443,22 @@ namespace Contact_Tracing_App
             this.label20.Text = resources.GetString("label20.Text");
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(398, 618);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(112, 37);
+            this.btnExit.TabIndex = 17;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // frmCTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(671, 714);
+            this.ClientSize = new System.Drawing.Size(671, 692);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSubmit);
@@ -446,6 +466,7 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCTA";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing Form";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -474,7 +495,6 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTemp;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtSex;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtAge;
@@ -493,6 +513,8 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.ComboBox cmbxSex;
     }
 }
 
