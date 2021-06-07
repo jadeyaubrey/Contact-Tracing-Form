@@ -114,6 +114,7 @@ namespace Contact_Tracing_App
             // 
             // cmbxSex
             // 
+            this.cmbxSex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbxSex.FormattingEnabled = true;
             this.cmbxSex.Items.AddRange(new object[] {
             "Female",
