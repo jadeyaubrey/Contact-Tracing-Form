@@ -38,31 +38,45 @@ namespace Contact_Tracing_App
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             StreamWriter customerLog;
-            customerLog = File.AppendText("visitors.txt");
-            customerLog.WriteLine("Name: " + txtLN.Text + ", " + txtFN.Text + " " + txtMI.Text);
-            customerLog.WriteLine("Age: " + txtAge.Text);
-            customerLog.WriteLine("Sex: " + txtSex.Text);
-            customerLog.WriteLine("Temperature: " + txtTemp.Text);
-            customerLog.WriteLine("Phone: " + txtPhone.Text);
-            customerLog.WriteLine("Email Address: " + txtEmail.Text);
-            customerLog.WriteLine("Address: " + txtHouse.Text + ", " + txtBrgy.Text + ", " + txtCity.Text + ", " + txtProvince.Text);
-            customerLog.WriteLine("Zipcode: " + txtZip.Text);
-            customerLog.Close();
 
-            //clear textbox fields
-            txtLN.Clear();
-            txtFN.Clear();
-            txtMI.Clear();
-            txtAge.Clear();
-            txtSex.Clear();
-            txtTemp.Clear();
-            txtPhone.Clear();
-            txtEmail.Clear();
-            txtHouse.Clear();
-            txtBrgy.Clear();
-            txtCity.Clear();
-            txtProvince.Clear();
-            txtZip.Clear();
+            if (txtFN.Text == "" || txtLN.Text == "" || txtAge.Text == "" || txtSex.Text == "" || txtTemp.Text == "" || txtPhone.Text == "" || txtEmail.Text == "")
+            {
+                MessageBox.Show("Please provide input on the required fields!");
+            }
+
+            else
+            {
+                customerLog = File.AppendText("visitors.txt");
+                customerLog.WriteLine("Date: " + datePicker.Text);
+                customerLog.WriteLine("Name: " + txtLN.Text + ", " + txtFN.Text + " " + txtMI.Text);
+                customerLog.WriteLine("Age: " + txtAge.Text);
+                customerLog.WriteLine("Sex: " + txtSex.Text);
+                customerLog.WriteLine("Temperature: " + txtTemp.Text);
+                customerLog.WriteLine("Phone: " + txtPhone.Text);
+                customerLog.WriteLine("Email Address: " + txtEmail.Text);
+                customerLog.WriteLine("Address: " + txtHouse.Text + ", " + txtBrgy.Text + ", " + txtCity.Text + ", " + txtProvince.Text);
+                customerLog.WriteLine("Zipcode: " + txtZip.Text);
+                customerLog.Close();
+
+                //clear textbox fields
+                txtLN.Clear();
+                txtFN.Clear();
+                txtMI.Clear();
+                txtAge.Clear();
+                txtSex.Clear();
+                txtTemp.Clear();
+                txtPhone.Clear();
+                txtEmail.Clear();
+                txtHouse.Clear();
+                txtBrgy.Clear();
+                txtCity.Clear();
+                txtProvince.Clear();
+                txtZip.Clear();
+            }
+
+            
+
+
 
         }
     }
