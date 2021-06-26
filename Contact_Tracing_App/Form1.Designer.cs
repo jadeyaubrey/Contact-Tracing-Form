@@ -31,6 +31,7 @@ namespace Contact_Tracing_App
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCTA));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbxAge = new System.Windows.Forms.ComboBox();
             this.cmbxSex = new System.Windows.Forms.ComboBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@ namespace Contact_Tracing_App
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtAge = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtMI = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -73,6 +73,7 @@ namespace Contact_Tracing_App
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cmbxAge);
             this.groupBox1.Controls.Add(this.cmbxSex);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label19);
@@ -98,7 +99,6 @@ namespace Contact_Tracing_App
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtAge);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtMI);
             this.groupBox1.Controls.Add(this.label2);
@@ -111,6 +111,66 @@ namespace Contact_Tracing_App
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customer Information";
+            // 
+            // cmbxAge
+            // 
+            this.cmbxAge.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbxAge.FormattingEnabled = true;
+            this.cmbxAge.Items.AddRange(new object[] {
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65"});
+            this.cmbxAge.Location = new System.Drawing.Point(16, 111);
+            this.cmbxAge.Name = "cmbxAge";
+            this.cmbxAge.Size = new System.Drawing.Size(92, 28);
+            this.cmbxAge.TabIndex = 31;
             // 
             // cmbxSex
             // 
@@ -344,13 +404,6 @@ namespace Contact_Tracing_App
             this.label4.TabIndex = 7;
             this.label4.Text = "Age";
             // 
-            // txtAge
-            // 
-            this.txtAge.Location = new System.Drawing.Point(16, 112);
-            this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(96, 27);
-            this.txtAge.TabIndex = 4;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -498,7 +551,6 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMI;
         private System.Windows.Forms.Label label2;
@@ -509,13 +561,14 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.ComboBox cmbxSex;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox cmbxAge;
     }
 }
 

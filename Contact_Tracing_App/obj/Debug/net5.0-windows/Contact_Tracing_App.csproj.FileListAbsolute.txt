@@ -16,3 +16,21 @@ D:\Users\jadeyaubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tr
 D:\Users\jadeyaubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.genruntimeconfig.cache
 D:\Users\jadeyaubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.csprojAssemblyReference.cache
 D:\Users\jadeyaubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.frmCTA.resources
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\Contact_Tracing_App.exe
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\Contact_Tracing_App.deps.json
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\Contact_Tracing_App.runtimeconfig.json
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\Contact_Tracing_App.runtimeconfig.dev.json
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\Contact_Tracing_App.dll
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\ref\Contact_Tracing_App.dll
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\bin\Debug\net5.0-windows\Contact_Tracing_App.pdb
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.csproj.AssemblyReference.cache
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.frmCTA.resources
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.csproj.GenerateResource.cache
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.AssemblyInfoInputs.cache
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.AssemblyInfo.cs
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.csproj.CoreCompileInputs.cache
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.dll
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\ref\Contact_Tracing_App.dll
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.pdb
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.genruntimeconfig.cache

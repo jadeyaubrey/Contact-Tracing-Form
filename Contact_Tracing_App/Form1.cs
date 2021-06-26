@@ -25,7 +25,7 @@ namespace Contact_Tracing_App
             txtLN.Clear();
             txtFN.Clear();
             txtMI.Clear();
-            txtAge.Clear();
+            cmbxAge.ResetText();
             cmbxSex.ResetText();
             txtTemp.Clear();
             txtPhone.Clear();
@@ -41,11 +41,10 @@ namespace Contact_Tracing_App
         {
             StreamWriter customerLog;
 
-            if (txtFN.Text == "" || txtLN.Text == "" || txtAge.Text == "" || cmbxSex.Text == "" || txtTemp.Text == "" || txtPhone.Text == "" || txtEmail.Text == "" 
+            if (txtFN.Text == "" || txtLN.Text == "" || cmbxAge.Text == "" || cmbxSex.Text == "" || txtTemp.Text == "" || txtPhone.Text == "" || txtEmail.Text == "" 
                 || txtHouse.Text =="" || txtBrgy.Text == "" || txtCity.Text == "" || txtProvince.Text == "")
             {
                 MessageBox.Show("Please provide input on the required fields!");
-
             }
 
             else
@@ -56,7 +55,7 @@ namespace Contact_Tracing_App
                 customerLog.WriteLine("Visitor # " + visitor_count.ToString());
                 customerLog.WriteLine("Date: " + datePicker.Text);
                 customerLog.WriteLine("Name: " + txtLN.Text + ", " + txtFN.Text + " " + txtMI.Text);
-                customerLog.WriteLine("Age: " + txtAge.Text);
+                customerLog.WriteLine("Age: " + cmbxAge.Text);
                 customerLog.WriteLine("Sex: " + cmbxSex.Text);
                 customerLog.WriteLine("Temperature: " + txtTemp.Text);
                 customerLog.WriteLine("Phone: " + txtPhone.Text);
@@ -73,7 +72,7 @@ namespace Contact_Tracing_App
                 txtLN.Clear();
                 txtFN.Clear();
                 txtMI.Clear();
-                txtAge.Clear();
+                cmbxAge.ResetText();
                 cmbxSex.ResetText();
                 txtTemp.Clear();
                 txtPhone.Clear();
