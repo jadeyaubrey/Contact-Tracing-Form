@@ -34,3 +34,5 @@ D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tr
 D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\ref\Contact_Tracing_App.dll
 D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.pdb
 D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.genruntimeconfig.cache
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.frmWelcome.resources
+D:\Users\Jade Aubrey\Desktop\ACAAAAAADS\CMPE 30032 OOP\c# programming\Contact-Tracing-Form-Final-\Contact_Tracing_App\obj\Debug\net5.0-windows\Contact_Tracing_App.frmReadVisitors.resources

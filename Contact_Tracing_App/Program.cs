@@ -17,7 +17,7 @@ namespace Contact_Tracing_App
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCTA());
+            Application.Run(new frmWelcome());
         }
     }
 }

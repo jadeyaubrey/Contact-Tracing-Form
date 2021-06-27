@@ -22,3 +22,63 @@ Address: fddsf, sdfsdf, sdfdsf, sdfsdf
 Zipcode: sdfsdff
   
   
+Visitor # 1
+Date: Saturday, 26 June 2021
+Name: Abiog, Jade Aubrey H
+Age: 29
+Sex: Female
+Temperature: 27
+Phone: 32132132132
+Email Address: @gmail.com
+Address: ajdjadad, jsdaadkjl, kjldkjldfskjlKJLDKL, KLJAKLA
+Zipcode: KJSDD
+  
+  
+Visitor # 1
+Date: Saturday, 26 June 2021
+Name: dfdsf, sdfsdf sfddf
+Age: 20
+Sex: Female
+Temperature: 34
+Phone: 34324234342
+Email Address: 432434
+Address: dfdf, ssdfd, fdsfd, sfdsf
+Zipcode: sfdsfdsf
+  
+  
+Visitor # 1
+Date: Saturday, 26 June 2021
+Name: fsf, sdfsdf sdfsdf
+Age: 23
+Sex: Female
+Temperature: 23
+Phone: dfsdfsdfdfd
+Email Address: sdfsdfd
+Address: sdfdsf, sdfdf, sdfdsf, sdfdsfsd
+Zipcode: sdfsdfdsf
+  
+  
+Visitor # 1
+Date: Saturday, 26 June 2021
+Name: erewr, werer werwer
+Age: 20
+Sex: Male
+Temperature: 54
+Phone: 46478787686
+Email Address: vbcvbcvb
+Address: bvcvb, cvbvcb, cvvcbb, cvbcb
+Zipcode: cvbvcb
+  
+  
+Visitor # 1
+Date: Sunday, 27 June 2021
+Name: abiog, jade aubrey 
+Age: 19
+Sex: Female
+Temperature: 37
+Phone: 09202835686
+Email Address: jahabiog18@gmail.com
+Address: 2 4th street zone 1, north signal village , taguig city, metro manila
+Zipcode: 
+  
+  

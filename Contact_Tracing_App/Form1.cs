@@ -25,8 +25,8 @@ namespace Contact_Tracing_App
             txtLN.Clear();
             txtFN.Clear();
             txtMI.Clear();
-            cmbxAge.ResetText();
-            cmbxSex.ResetText();
+            cmbxAge.SelectedItem = null;
+            cmbxSex.SelectedItem = null;
             txtTemp.Clear();
             txtPhone.Clear();
             txtEmail.Clear();
@@ -72,8 +72,8 @@ namespace Contact_Tracing_App
                 txtLN.Clear();
                 txtFN.Clear();
                 txtMI.Clear();
-                cmbxAge.ResetText();
-                cmbxSex.ResetText();
+                cmbxAge.SelectedItem = null;
+                cmbxSex.SelectedItem = null;
                 txtTemp.Clear();
                 txtPhone.Clear();
                 txtEmail.Clear();
@@ -83,11 +83,20 @@ namespace Contact_Tracing_App
                 txtProvince.Clear();
                 txtZip.Clear();
             }
+            this.Hide();
+            frmWelcome f1 = new frmWelcome();
+            f1.ShowDialog();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+
+            frmWelcome f1 = new frmWelcome();
+            f1.Close();
+
+            frmReadVisitors f3 = new frmReadVisitors();
+            f3.Close();
         }
     }
 }

@@ -105,6 +105,7 @@ namespace Contact_Tracing_App
             this.groupBox1.Controls.Add(this.txtFN);
             this.groupBox1.Controls.Add(this.txtLN);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(13, 148);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(646, 438);
@@ -459,10 +460,10 @@ namespace Contact_Tracing_App
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label16.Font = new System.Drawing.Font("Franklin Gothic Demi", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.Location = new System.Drawing.Point(143, 17);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(374, 49);
+            this.label16.Size = new System.Drawing.Size(399, 47);
             this.label16.TabIndex = 27;
             this.label16.Text = "Contact Tracing Form";
             // 
@@ -511,6 +512,7 @@ namespace Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(671, 692);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label20);
