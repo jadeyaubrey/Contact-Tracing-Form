@@ -13,8 +13,7 @@ namespace Contact_Tracing_App
 {
     public partial class frmCTA : Form
     {
-        byte visitor_count = 0;
-
+        byte visitorcount = 0;
         public frmCTA()
         {
             InitializeComponent();
@@ -49,10 +48,7 @@ namespace Contact_Tracing_App
 
             else
             {
-                visitor_count++;
-
                 customerLog = File.AppendText("visitors.txt");
-                customerLog.WriteLine("Visitor # " + visitor_count.ToString());
                 customerLog.WriteLine("Date: " + datePicker.Text);
                 customerLog.WriteLine("Name: " + txtLN.Text + ", " + txtFN.Text + " " + txtMI.Text);
                 customerLog.WriteLine("Age: " + cmbxAge.Text);
