@@ -34,8 +34,9 @@ namespace Contact_Tracing_App
 
             while(!inputFile.EndOfStream)
             {
-                rtextVisitors.Text = inputFile.ReadLine();
+                rtextVisitors.AppendText(inputFile.ReadLine() + "\n");
             }
+            inputFile.Close();
         }
     }
 }

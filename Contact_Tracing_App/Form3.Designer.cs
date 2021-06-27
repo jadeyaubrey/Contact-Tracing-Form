@@ -37,7 +37,6 @@ namespace Contact_Tracing_App
             // rtextVisitors
             // 
             this.rtextVisitors.BackColor = System.Drawing.Color.White;
-            this.rtextVisitors.Enabled = false;
             this.rtextVisitors.Location = new System.Drawing.Point(32, 57);
             this.rtextVisitors.Name = "rtextVisitors";
             this.rtextVisitors.Size = new System.Drawing.Size(529, 463);

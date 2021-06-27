@@ -82,10 +82,11 @@ namespace Contact_Tracing_App
                 txtCity.Clear();
                 txtProvince.Clear();
                 txtZip.Clear();
+
+                this.Hide();
+                frmWelcome f1 = new frmWelcome();
+                f1.ShowDialog();
             }
-            this.Hide();
-            frmWelcome f1 = new frmWelcome();
-            f1.ShowDialog();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
